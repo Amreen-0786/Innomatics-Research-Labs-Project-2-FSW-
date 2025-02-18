@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Match Challenge</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="start-screen">
+    <h1>🧐 Memory Match Challenge 🎰 </h1>
+    <div class="theme-buttons">
+      <button id="theme-fruits">Fruits 🍇</button>
+      <button id="theme-emojis">Emojis 😊</button>
+      <button id="theme-animals">Animals 🐵</button>
+      <button id="theme-planets">Planets 🌍</button>
+      <button id="theme-flags">Flags ⛳️ </button>
+    </div>
+  </div>
+
+  <div class="game-screen hidden">
+    <div class="game-info">
+      <p>Points: <span id="points">0</span></p>
+      <p>Time: <span id="time">30</span>s</p>
+    </div>
+    <div class="card-board"></div>
+    <div class="end-screen hidden">
+      <h2>Game Over!</h2>
+      <p>Total Points: <span id="total-points">0</span></p>
+      <button id="restart">Restart</button>
+    </div>
+  </div>
+
+  <audio id="card-flip-sound" src="flip.mp3"></audio>
+  <audio id="card-match-sound" src="match.mp3"></audio>
+  <audio id="end-game-sound" src="game-over.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
