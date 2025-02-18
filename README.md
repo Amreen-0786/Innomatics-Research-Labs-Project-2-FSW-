@@ -1,4 +1,4 @@
-#   🧠 Memory Match Game 🎮
+#   🧠 Memory Match Challenge 🧩
 
 
 ## 🎮 About the Game
