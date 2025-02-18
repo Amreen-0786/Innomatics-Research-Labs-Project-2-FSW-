@@ -42,9 +42,9 @@ A fun and interactive memory card game where players can choose from multiple ca
 Feel free to contribute! Open an issue or submit a pull request.
 
 ## Screen Shots
-![img-1](Project-2/output-1.png)
-![img-2](Project-2/output-3.png)
-![img-3](Project-2/output-3.png)
+![img-1](Project_2/res-1.png)
+![img-2](Project_2/res-2.png)
+![img-3](Project_2/res-3.png)
 
 ## Video
-[You can Download Output Video from here](Project-2/otput_video.mov)
+[You can Download Output Video from here](Project_2/otput_video.mov)
